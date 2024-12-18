@@ -1,0 +1,39 @@
+{
+  "name": "Rolatro",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$path": "src/packages/public",
+      "$ignoreUnknownInstances": true,
+
+      "Remote": {
+        "$ignoreUnknownInstances": true,
+        "$className": "RemoteEvent"
+      }
+    },
+
+    "ServerStorage": {
+      "$path": "src/packages/private",
+      "$ignoreUnknownInstances": true
+    },
+
+    "ServerScriptService": {
+      "$ignoreUnknownInstances": true,
+      "$path": "src/server"
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+          "$ignoreUnknownInstances": true,
+          "$path": "src/client"
+      }
+    },
+
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
