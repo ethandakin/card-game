@@ -5,16 +5,11 @@ registry = "test"
 [[package]]
 name = "ethan/rolatro"
 version = "0.1.0"
-dependencies = [["bytenet", "ffrostflame/bytenet@0.4.6"], ["cmdr", "evaera/cmdr@1.12.0"], ["roact", "roblox/roact@1.4.4"]]
+dependencies = [["cmdr", "evaera/cmdr@1.12.0"], ["roact", "roblox/roact@1.4.4"]]
 
 [[package]]
 name = "evaera/cmdr"
 version = "1.12.0"
-dependencies = []
-
-[[package]]
-name = "ffrostflame/bytenet"
-version = "0.4.6"
 dependencies = []
 
 [[package]]

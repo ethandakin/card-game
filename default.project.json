@@ -4,8 +4,13 @@
     "$className": "DataModel",
 
     "ReplicatedStorage": {
-      "$path": "src/packages/public",
-      "$ignoreUnknownInstances": true,
+      "$path": "src/modules/public",
+      "$ignoreUnknownInstances": true, 
+
+      "Packages": {
+        "$path": "Packages",
+        "$ignoreUnknownInstances": true
+      },
 
       "Remote": {
         "$ignoreUnknownInstances": true,
@@ -14,7 +19,7 @@
     },
 
     "ServerStorage": {
-      "$path": "src/packages/private",
+      "$path": "src/modules/private",
       "$ignoreUnknownInstances": true
     },
 
